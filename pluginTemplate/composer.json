@@ -1,0 +1,22 @@
+{
+    "name": "leantime/pluginTemplate",
+    "description": "A standard plugin structure for Leantime",
+    "version": "0.1",
+    "screenshot": "/images/screenshot.png",
+    "authors": [
+        {
+            "name": "Leantime",
+            "email": "support@leantime.io"
+        }
+    ],
+    "homepage": "https://leantime.io",
+    "type": "plugin",
+    "keywords": [
+        "",
+        ""
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "leantime/leantime": "2.3"
+    }
+}
