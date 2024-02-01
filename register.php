@@ -36,7 +36,7 @@ function addExampleMenuItem($menuStructure)
 }
 
 //Register event listener
-\leantime\core\events::add_filter_listener("domain.menu.repositories.menu.getMenuStructure.menuStructures", 'addExampleMenuItem');
+\leantime\core\events::add_filter_listener("domain.menu.Repositories.menu.getMenuStructure.menuStructures", 'addExampleMenuItem');
 
 
 
