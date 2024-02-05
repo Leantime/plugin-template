@@ -17,6 +17,6 @@
     ],
     "license": "Apache-2.0",
     "require": {
-        "leantime/leantime": "2.3"
+        "leantime/leantime": "3.0"
     }
 }
