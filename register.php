@@ -39,4 +39,8 @@ function addExampleMenuItem($menuStructure)
 \leantime\core\events::add_filter_listener("domain.menu.Repositories.menu.getMenuStructure.menuStructures", 'addExampleMenuItem');
 
 
-
+//Register Language Assets
+\leantime\core\events::add_filter_listener(
+    'leantime.core.httpkernel.handle.plugins_middleware',
+    fn (array $middleware) => array_merge($middleware, [GetLanguageAssets::class]),
+);
